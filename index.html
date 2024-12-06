@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Wakanda Transformer</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+<div class="logo">Wakanda Transformer</div>
+<div class="harmbuger-menu">
+    <div class="harmbuger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about"     onclick="toggleMenu() " >About</a></li>
+        <li><a href="#experience" onclick="toggleMenu() " >Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu() " >Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu() " >Contact</a></li>
+    </div>
+</div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/images.jpeg" alt="wakandas">
+        </div>
+        <div class="section_text">
+            <p class="section_text_P1">Hello</p>
+            <h1 class="title">Wakanda Transformer</h1>
+            <p class="section_text_p2">Backend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/images.jpeg')">Download Cv</button>
+                <button class="btn btn-color-1" onclick="window.open('./assets/images.jpeg')">Contact</button>
+            </div>
+            <div id="social-container"> 
+                <img src="./assets/linkedin.png" alt="linkedin" class="icon" onclick="location.href='https: //Linledin.com'">
+                <img src="./assets/github.png" alt="github" class="icon" onclick="location.href='https: //github.com'">
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section id="about">
+        <p class="section_text_p1">Get to know more</p>
+        <h1 class="Title">About me</h1>
+        <div class="section_container">
+            <div class="section_pic_container">
+                <img src="./assets/images.jpeg" alt="profile pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/images.jpeg" alt="expericence ico" class="icon">
+                        <h3>Experinces</h3>
+                            <p>2+ yeras <br>Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/images.jpeg" alt="education ico" class="icon">
+                        <h3>Eduaction</h3>
+                            <p>bsc computer science<br>Cambridge university</p>
+                    </div>
+                    </div>
+                    <div class="text_conatiner">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et modi maiores ea harum expedita vitae. Vero veritatis assumenda perferendis quibusdam dignissimos sapiente, deserunt explicabo ea excepturi nesciunt distinctio impedit delectus.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/github.png" alt="arrow icon" class="icon arrow" onclick="location.href='./experience'">
+        </div>
+    </section>
+    <!--Experience-->
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-conatiner">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Html</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Typescript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">BackendDevelopment</h2>
+                    <div class="article-conatiner">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Flask</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <!--Projects-->
+    <section id="projects">
+        <p class="section_text_p1">Browse my recent projects</p>
+        <h1>Projects</h1>
+        <div class="experience-details-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/weather.png" alt="Weather App" class="project-image">
+            </div>
+            <h2 class="experience-sub-title project-title">Weather App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/margret255/WeatherApp'">Click to View</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/portfolio.jpeg" alt="Portfolio" class="project-image">
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/margret255/WeatherApp'">Click to View</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/chatbot.png" alt="AI Chatbot" class="project-image">
+            </div>
+            <h2 class="experience-sub-title project-title">AI Chatbot</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/margret255/MyAI'">Click to View</button>
+            </div>
+          </div>
+      
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/cipher.png" alt="CipherBase" class="project-image">
+            </div>
+            <h2 class="experience-sub-title project-title">CipherBase</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/margret255/Cipherbase'">Click to View</button>
+            </div>
+          </div>
+         
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/android.png" alt="Android" class="project-image">
+            </div>
+            <h2 class="experience-sub-title project-title">Android</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/margret255/Android-Projects'">Click to View</button>
+            </div>
+          </div>
+        </div>
+      
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+      </section>
+      <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon">
+                <p><a href="mailto:example@gmail.com">Example@gmail.com</a></p>
+            </div>
+<br>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/wangui-margaret-1857762a7">LinkedIn</a></p>
+            </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+            <div aria-checked="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>copyright &#169; 2024 Wakanda Transformer. All rights Reserved</p>
+      </footer>
+    <script src="index.js">
+    </script>
+</body>
+</html>
